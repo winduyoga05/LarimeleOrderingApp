@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base night theme -->
+    <style name="Base.Theme.FoodOrderingApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Pertahankan font yang sama -->
+        <item name="android:fontFamily">@font/pixelif</item>
+        <item name="fontFamily">@font/pixelif</item>
+
+        <!-- Sesuaikan text appearance untuk mode malam -->
+        <item name="android:textAppearance">?attr/textAppearanceBodyMedium</item>
+    </style>
+
+    <style name="Theme.FoodOrderingApp" parent="Base.Theme.FoodOrderingApp" />
+
+    <!-- Style untuk mode malam dengan ukuran lebih kecil -->
+    <style name="textStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/blue_grey</item>
+        <item name="android:textSize">18sp</item> <!-- Diubah dari 18sp ke 14sp -->
+    </style>
+
+    <style name="textStyleBold" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/blue_grey</item>
+        <item name="android:textSize">18sp</item> <!-- Diubah dari 18sp ke 14sp -->
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

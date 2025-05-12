@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "429441186031",
+    "firebase_url": "https://larimele-c9273-default-rtdb.firebaseio.com",
+    "project_id": "larimele-c9273",
+    "storage_bucket": "larimele-c9273.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429441186031:android:b8ff3009e3e9758288031a",
+        "android_client_info": {
+          "package_name": "com.larimele.foodorderingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429441186031-5hulre4jaluegpa730ghj5ots4t0nl7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.larimele.foodorderingapp",
+            "certificate_hash": "f30d1a1fae8af5a9330b1e9202bb55970782786d"
+          }
+        },
+        {
+          "client_id": "429441186031-r7hrhslb0cqjsk7gj7kv1pd9e8dhf7i5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.larimele.foodorderingapp",
+            "certificate_hash": "81d563c32b65dc5b11a02bd381e5bd43c08f4629"
+          }
+        },
+        {
+          "client_id": "429441186031-46nosnp5ha6oev5p9dl3741dm9l3p21j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIHo9kRle_UTO00fafyH-slo_4mduR4Eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429441186031-46nosnp5ha6oev5p9dl3741dm9l3p21j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

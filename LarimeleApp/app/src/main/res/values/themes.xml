@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FoodOrderingApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Hanya set font default tanpa mengubah ukuran/bold -->
+        <item name="android:fontFamily">@font/pixelif</item>
+        <item name="fontFamily">@font/pixelif</item>
+
+        <!-- Biarkan textAppearance default Material3 -->
+        <item name="android:textAppearance">?attr/textAppearanceBodyMedium</item>
+    </style>
+
+    <style name="Theme.FoodOrderingApp" parent="Base.Theme.FoodOrderingApp" />
+
+    <!-- Style khusus hanya jika diperlukan -->
+    <style name="textStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/blue_grey</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="textStyleBold" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/blue_grey</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

@@ -1,0 +1,71 @@
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.google.gms.google.services)
+}
+
+android {
+    namespace 'com.larimele.foodorderingapp'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.larimele.foodorderingapp"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    // Tambahkan konfigurasi signing di sini
+    signingConfigs {
+        release {
+            storeFile file("C:/Users/ASUS/AndroidStudioProjects/FoodOrderingApp-1.0/key.jks")
+            storePassword "081241" // Ganti dengan password keystore
+            keyAlias "key0" // Ganti dengan alias keystore
+            keyPassword "081241" // Ganti dengan password alias
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release // Hubungkan dengan signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    implementation libs.gson
+    implementation libs.glide
+    implementation libs.firebase.auth
+    implementation libs.firebase.database
+    implementation 'com.google.android.gms:play-services-auth:20.7.0'
+    implementation 'com.facebook.android:facebook-android-sdk:16.2.0'
+    implementation 'com.facebook.android:facebook-login:16.2.0'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation 'com.google.firebase:firebase-auth:23.0.0' // Sesuaikan versi terbaru
+    implementation 'com.google.android.gms:play-services-auth:20.7.0' // Sesuaikan versi terbaru
+
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+}
+
+// ✅ Tambahkan baris ini di paling bawah (agar Firebase bisa sinkron dengan benar)
+apply plugin: 'com.google.gms.google-services'

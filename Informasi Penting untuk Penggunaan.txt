@@ -1,0 +1,77 @@
+Informasi Penting untuk Penggunaan dan Pengembangan Aplikasi
+
+1. Persyaratan Login dengan Facebook dan Google
+Aplikasi ini menggunakan autentikasi Firebase untuk login dengan Google dan Facebook. Namun, beberapa perangkat mungkin tidak dapat login jika aplikasi dibuild menggunakan Android Studio di perangkat pengembang yang berbeda.
+Penyebab: Kode hash (untuk Facebook) dan SHA-1 (untuk Google) yang terdaftar di Firebase Console dan Facebook for Developers hanya berlaku untuk perangkat pengembang yang awalnya digunakan untuk membuild aplikasi. Hal ini karena setiap perangkat pengembang menghasilkan kode hash dan SHA-1 yang berbeda berdasarkan konfigurasi lokalnya (misalnya, debug keystore atau keystore release).
+Solusi:
+Jika ada perangkat pengembang baru yang digunakan untuk membuild aplikasi, tambahkan secara manual:
+SHA-1 ke Firebase Console:
+Buka Firebase Console > Pilih proyek > Project Settings > Tambahkan SHA-1 baru di "SHA certificate fingerprints".
+Unduh ulang google-services.json dan ganti file lama di folder app/ proyek.
+Kode Hash ke Facebook for Developers:
+Buka Facebook for Developers > Pilih aplikasi > Settings > Basic > Tambahkan kode hash baru di bagian "Key Hashes".
+Dapatkan kode hash dengan menjalankan metode printKeyHashes() di LoginActivity.java (sudah ada di kode) dan salin output dari logcat (filter FB_KEY_HASH).
+Catatan Penting: Aplikasi ini dirancang untuk digunakan hanya pada satu perangkat di restoran. Oleh karena itu, sebaiknya batasi pembuatan build hanya pada satu perangkat pengembang utama untuk menghindari masalah konfigurasi berulang.
+
+2. Pengaturan Database
+Aplikasi menggunakan Firebase Realtime Database untuk menyimpan data, dipadukan dengan Firebase Authentication untuk mengelola pengguna.
+Struktur Database: Struktur database sudah disediakan dan dapat digunakan sebagai template jika ingin membuat database baru untuk versi aplikasi dengan email Firebase yang berbeda.
+Langkah Mengganti Database:
+Buat proyek baru di Firebase Console menggunakan email yang berbeda.
+Konfigurasi Realtime Database dan Authentication sesuai kebutuhan.
+Unduh file google-services.json terbaru dari Firebase Console setelah menambahkan SHA-1 dan konfigurasi lainnya.
+Ganti file google-services.json lama di folder app/ proyek Android Studio dengan file baru.
+Sinkronkan proyek (Sync Project with Gradle Files) dan build ulang aplikasi.
+
+3. Konfigurasi Keystore untuk Release
+Keystore yang digunakan untuk menandatangani APK release adalah sebagai berikut:
+Store File: C:/Users/ASUS/AndroidStudioProjects/FoodOrderingApp-1.0/key.jks
+Store Password: 081241
+Key Alias: key0
+Key Password: 081241
+Langkah Penggunaan:
+Pastikan file key.jks berada di lokasi yang ditentukan di atas.
+Perbarui file app/build.gradle dengan konfigurasi berikut:
+Copy
+signingConfigs {
+    release {
+        storeFile file("C:/Users/ASUS/AndroidStudioProjects/FoodOrderingApp-1.0/key.jks")
+        storePassword "081241"
+        keyAlias "key0"
+        keyPassword "081241"
+    }
+}
+buildTypes {
+    release {
+        signingConfig signingConfigs.release
+        minifyEnabled false
+        proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+}
+Sinkronkan proyek setelah mengubah build.gradle.
+Jalankan Gradle > :app > Tasks > android > signingReport dengan build variant release untuk memastikan SHA-1 release dihasilkan.
+Tambahkan SHA-1 release ke Firebase Console jika belum ada.
+
+4. Informasi Tambahan
+Pembatasan Perangkat: Aplikasi ini dirancang untuk penggunaan pada satu perangkat restoran. Pastikan hanya satu perangkat yang digunakan untuk menjalankan aplikasi setelah build. Jika perlu menggunakan perangkat lain, tambahkan SHA-1 dan kode hash dari perangkat tersebut ke Firebase Console dan Facebook for Developers seperti dijelaskan di atas.
+Pemeliharaan Keamanan:
+Simpan file key.jks dan detailnya (password, alias) di tempat aman. Kehilangan akses ke keystore dapat menyulitkan pembaruan aplikasi di masa depan.
+Hindari berbagi file key.jks atau detailnya kecuali di lingkungan yang sangat terpercaya.
+Peningkatan Aplikasi:
+Pastikan library Firebase dan Google Play Services diperbarui secara berkala (misalnya, firebase-auth:23.0.0 dan play-services-auth:20.7.0) untuk menjaga kompatibilitas. Periksa versi terbaru di dokumentasi resmi Firebase dan Google.
+Jika ada perubahan kode atau struktur database, uji ulang aplikasi di emulator sebelum build release.
+
+5. Langkah Troubleshooting
+Jika Login Gagal (Google atau Facebook):
+Periksa logcat (filter GoogleSignIn untuk Google atau FB_LOGIN untuk Facebook) untuk pesan error.
+Pastikan SHA-1 dan kode hash sudah diperbarui di Firebase Console dan Facebook for Developers.
+Contoh error umum Google Sign-In:
+ApiException: 10 (mismatch SHA-1): Tambahkan SHA-1 yang benar ke Firebase Console.
+ApiException: 12500 (Google Play Services perlu update): Perbarui Google Play Services di perangkat restoran.
+Contoh error Facebook: "Invalid Key Hash": Tambahkan kode hash baru ke Facebook for Developers.
+Jika Build Gagal:
+Verifikasi path key.jks dan detail password/alias di build.gradle.
+Pastikan google-services.json sesuai dengan proyek Firebase yang aktif.
+Jika signingReport Gagal:
+Pastikan build variant diatur ke release.
+Periksa apakah detail keystore di build.gradle (path, password, alias) benar. Jika password salah, kamu akan melihat error seperti "keystore password was incorrect".

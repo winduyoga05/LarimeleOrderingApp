@@ -1,0 +1,44 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "Cart": {
+      "$userId": {
+        ".read": "$userId === auth.uid",
+        ".write": "$userId === auth.uid"
+      }
+    },
+    "Orders": {
+      "$orderId": {
+        ".read": "data.child('userId').val() === auth.uid",
+        ".write": "auth != null && newData.child('userId').val() === auth.uid"
+      }
+    },
+    "Users": {
+      "$userId": {
+        ".read": "$userId === auth.uid",
+        ".write": "$userId === auth.uid"
+      }
+    },
+    "Category": {
+      ".read": true,
+      ".write": "auth != null && auth.token.admin === true"
+    },
+    "Foods": {
+      ".read": true,
+      ".write": "auth != null && auth.token.admin === true"
+    },
+    "Location": {
+      ".read": true,
+      ".write": "auth != null && auth.token.admin === true"
+    },
+    "Price": {
+      ".read": true,
+      ".write": "auth != null && auth.token.admin === true"
+    },
+    "Time": {
+      ".read": true,
+      ".write": "auth != null && auth.token.admin === true"
+    }
+  }
+}

@@ -1,0 +1,1423 @@
+{
+  "Cart": {
+    "6UlqWha3Qeb4BcDkc6ECbE3nHIL2": {
+      "-OPuCwldDNvskyoLdA2M": {
+        "foodId": 1,
+        "price": 6.99,
+        "quantity": 1,
+        "title": "Tadano Burger"
+      }
+    },
+    "B04p2oxpA1PcJs5LskIcNZCPv9z2": {
+      "item_1": {
+        "foodId": 1,
+        "price": 6.99,
+        "quantity": 2,
+        "title": "Tadano Burger"
+      },
+      "item_2": {
+        "foodId": 5,
+        "price": 4,
+        "quantity": 1,
+        "title": "Orenjiarm Juice"
+      }
+    },
+    "DS5nhDGtRTbXAXW7kvBzCImhWam1": {
+      "-OPtoej5NEyZz-2WqGpx": {
+        "foodId": 5,
+        "price": 4,
+        "quantity": 1,
+        "title": "Orenjiarm Juice"
+      }
+    },
+    "qOuKgw5lt4O3TsMV3YwJVSaxPZR2": {
+      "-OPtftRCXwj_TbMe94Py": {
+        "foodId": 9,
+        "price": 9.99,
+        "quantity": 1,
+        "title": "Sulaisu Pizza"
+      },
+      "-OPtg0OvJhuTF1z0_h9I": {
+        "foodId": 11,
+        "price": 8.75,
+        "quantity": 1,
+        "title": "Original Pizza"
+      },
+      "-OPthD6p3uG_3wNA4bk0": {
+        "foodId": 8,
+        "price": 5,
+        "quantity": 1,
+        "title": "Sticky Choco Yogurt"
+      }
+    },
+    "user_1": {
+      "-OPtrJJsA3J8RPcVjNei": {
+        "foodId": 1,
+        "price": 6.99,
+        "quantity": 1,
+        "title": "Tadano Burger"
+      }
+    },
+    "wfn0Lz4PC3fERHo7tMPOMewY5353": {
+      "-OPu-_uhra4nFSnMrihW": {
+        "foodId": 11,
+        "price": 8.75,
+        "quantity": 1,
+        "title": "Original Pizza"
+      }
+    }
+  },
+  "Category": {
+    "cat_1": {
+      "Id": 1,
+      "ImagePath": "drink_menu",
+      "Name": "Minuman"
+    },
+    "cat_2": {
+      "Id": 2,
+      "ImagePath": "burger_menu",
+      "Name": "Burger"
+    },
+    "cat_3": {
+      "Id": 3,
+      "ImagePath": "ice_cream_menu",
+      "Name": "Ice Cream"
+    },
+    "cat_4": {
+      "Id": 4,
+      "ImagePath": "pija_menu",
+      "Name": "Pizza"
+    }
+  },
+  "Foods": {
+    "food_1": {
+      "BestFood": true,
+      "CategoryId": 2,
+      "Description": "Tadano's signature juicy burger",
+      "Id": 1,
+      "ImagePath": "tadano_burger",
+      "LocationId": 1,
+      "Price": 6.99,
+      "PriceId": 2,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 10,
+      "Title": "Tadano Burger"
+    },
+    "food_10": {
+      "BestFood": true,
+      "CategoryId": 4,
+      "Description": "Pizza dengan rasa autentik",
+      "Id": 10,
+      "ImagePath": "wrong_pija_its_pie",
+      "LocationId": 1,
+      "Price": 10.5,
+      "PriceId": 3,
+      "Star": 4.8,
+      "TimeId": 2,
+      "TimeValue": 15,
+      "Title": "Its not a Pizza"
+    },
+    "food_11": {
+      "BestFood": false,
+      "CategoryId": 4,
+      "Description": "Pizza dengan daging premium",
+      "Id": 11,
+      "ImagePath": "furgorun_del_lorem_ipsum",
+      "LocationId": 1,
+      "Price": 8.75,
+      "PriceId": 3,
+      "Star": 4.5,
+      "TimeId": 2,
+      "TimeValue": 12,
+      "Title": "Original Pizza"
+    },
+    "food_12": {
+      "BestFood": false,
+      "CategoryId": 3,
+      "Description": "Blukutuk kazet dengan rasa khas",
+      "Id": 12,
+      "ImagePath": "blukutuk_kazet",
+      "LocationId": 1,
+      "Price": 4.25,
+      "PriceId": 1,
+      "Star": 4,
+      "TimeId": 1,
+      "TimeValue": 5,
+      "Title": "Blukutuk Kazet"
+    },
+    "food_2": {
+      "BestFood": false,
+      "CategoryId": 2,
+      "Description": "Big and bold Ooki-style beef burger",
+      "Id": 2,
+      "ImagePath": "ooki_burger",
+      "LocationId": 2,
+      "Price": 7.49,
+      "PriceId": 2,
+      "Star": 4.5,
+      "TimeId": 2,
+      "TimeValue": 12,
+      "Title": "Ooki Burger"
+    },
+    "food_3": {
+      "BestFood": false,
+      "CategoryId": 2,
+      "Description": "Proxy's spicy double-patty burger",
+      "Id": 3,
+      "ImagePath": "proxy_burger",
+      "LocationId": 3,
+      "Price": 8.25,
+      "PriceId": 3,
+      "Star": 4.8,
+      "TimeId": 3,
+      "TimeValue": 15,
+      "Title": "Proxy Burger"
+    },
+    "food_4": {
+      "BestFood": false,
+      "CategoryId": 1,
+      "Description": "Minuman segar melecola",
+      "Id": 4,
+      "ImagePath": "melecola",
+      "LocationId": 1,
+      "Price": 3.5,
+      "PriceId": 1,
+      "Star": 4.2,
+      "TimeId": 1,
+      "TimeValue": 5,
+      "Title": "Melecola"
+    },
+    "food_5": {
+      "BestFood": true,
+      "CategoryId": 1,
+      "Description": "Jus orenjiarm yang menyegarkan",
+      "Id": 5,
+      "ImagePath": "orenjiarm_juice",
+      "LocationId": 1,
+      "Price": 4,
+      "PriceId": 1,
+      "Star": 4.5,
+      "TimeId": 1,
+      "TimeValue": 5,
+      "Title": "Orenjiarm Juice"
+    },
+    "food_6": {
+      "BestFood": true,
+      "CategoryId": 1,
+      "Description": "Frappe gochizo dengan rasa unik",
+      "Id": 6,
+      "ImagePath": "frappe_gochizo",
+      "LocationId": 1,
+      "Price": 5.5,
+      "PriceId": 2,
+      "Star": 4.7,
+      "TimeId": 1,
+      "TimeValue": 7,
+      "Title": "Frappe Gochizo"
+    },
+    "food_7": {
+      "BestFood": false,
+      "CategoryId": 3,
+      "Description": "Choco cream pie yang lembut",
+      "Id": 7,
+      "ImagePath": "choco_cream_pie",
+      "LocationId": 1,
+      "Price": 4.5,
+      "PriceId": 1,
+      "Star": 4.3,
+      "TimeId": 1,
+      "TimeValue": 5,
+      "Title": "Choco Cream Pie"
+    },
+    "food_8": {
+      "BestFood": true,
+      "CategoryId": 3,
+      "Description": "Sticky choco yogurt yang nikmat",
+      "Id": 8,
+      "ImagePath": "sticky_choco_yogurt",
+      "LocationId": 1,
+      "Price": 5,
+      "PriceId": 2,
+      "Star": 4.6,
+      "TimeId": 1,
+      "TimeValue": 5,
+      "Title": "Sticky Choco Yogurt"
+    },
+    "food_9": {
+      "BestFood": false,
+      "CategoryId": 4,
+      "Description": "Pizza sulaisu dengan topping spesial",
+      "Id": 9,
+      "ImagePath": "sulaisu_pija",
+      "LocationId": 1,
+      "Price": 9.99,
+      "PriceId": 3,
+      "Star": 4.4,
+      "TimeId": 2,
+      "TimeValue": 15,
+      "Title": "Sulaisu Pizza"
+    }
+  },
+  "Location": {
+    "loc_1": {
+      "Id": 1,
+      "Loc": "Makassar"
+    },
+    "loc_2": {
+      "Id": 2,
+      "Loc": "Ngawi"
+    },
+    "loc_3": {
+      "Id": 3,
+      "Loc": "Pangkep"
+    }
+  },
+  "Orders": {
+    "-OOl4glKsgFSBH5B_Uiu": {
+      "deliveryFee": 10,
+      "items": [
+        {
+          "bestFood": true,
+          "categoryId": 2,
+          "description": "Tadano's signature juicy burger",
+          "id": 1,
+          "imagePath": "tadano_burger",
+          "locationId": 1,
+          "numberInCart": 1,
+          "price": 6.99,
+          "priceId": 2,
+          "star": 4.7,
+          "timeId": 1,
+          "timeValue": 10,
+          "title": "Tadano Burger"
+        },
+        {
+          "bestFood": false,
+          "categoryId": 2,
+          "description": "Proxy's spicy double-patty burger",
+          "id": 3,
+          "imagePath": "proxy_burger",
+          "locationId": 3,
+          "numberInCart": 1,
+          "price": 8.25,
+          "priceId": 3,
+          "star": 4.8,
+          "timeId": 3,
+          "timeValue": 15,
+          "title": "Proxy Burger"
+        }
+      ],
+      "status": "pending",
+      "subtotal": 15.24,
+      "tax": 0.3,
+      "timestamp": 1745654041768,
+      "total": 25.54,
+      "userId": "DS5nhDGtRTbXAXW7kvBzCImhWam1"
+    },
+    "-OP-Ps2CFwr6-OAQI-rp": {
+      "deliveryFee": 10,
+      "items": [
+        {
+          "bestFood": true,
+          "categoryId": 2,
+          "description": "Tadano's signature juicy burger",
+          "id": 1,
+          "imagePath": "tadano_burger",
+          "locationId": 1,
+          "numberInCart": 1,
+          "price": 6.99,
+          "priceId": 2,
+          "star": 4.7,
+          "timeId": 1,
+          "timeValue": 10,
+          "title": "Tadano Burger"
+        }
+      ],
+      "status": "pending",
+      "subtotal": 6.99,
+      "tax": 0.14,
+      "timestamp": 1745911250976,
+      "total": 17.13,
+      "userId": "WxBBRhhbVWar4YFFAiPflZ1iOnn1"
+    },
+    "-OP-U-uKwlC_wwLyLf25": {
+      "deliveryFee": 10,
+      "items": [
+        {
+          "bestFood": true,
+          "categoryId": 2,
+          "description": "Tadano's signature juicy burger",
+          "id": 1,
+          "imagePath": "tadano_burger",
+          "locationId": 1,
+          "numberInCart": 1,
+          "price": 6.99,
+          "priceId": 2,
+          "star": 4.7,
+          "timeId": 1,
+          "timeValue": 10,
+          "title": "Tadano Burger"
+        }
+      ],
+      "status": "pending",
+      "subtotal": 6.99,
+      "tax": 0.14,
+      "timestamp": 1745912335922,
+      "total": 17.13,
+      "userId": "B04p2oxpA1PcJs5LskIcNZCPv9z2"
+    },
+    "-OP-W0-KnAsCznOSBwFh": {
+      "deliveryFee": 10,
+      "items": [
+        {
+          "bestFood": true,
+          "categoryId": 2,
+          "description": "Tadano's signature juicy burger",
+          "id": 1,
+          "imagePath": "tadano_burger",
+          "locationId": 1,
+          "numberInCart": 1,
+          "price": 6.99,
+          "priceId": 2,
+          "star": 4.7,
+          "timeId": 1,
+          "timeValue": 10,
+          "title": "Tadano Burger"
+        },
+        {
+          "bestFood": false,
+          "categoryId": 2,
+          "description": "Proxy's spicy double-patty burger",
+          "id": 3,
+          "imagePath": "proxy_burger",
+          "locationId": 3,
+          "numberInCart": 1,
+          "price": 8.25,
+          "priceId": 3,
+          "star": 4.8,
+          "timeId": 3,
+          "timeValue": 15,
+          "title": "Proxy Burger"
+        }
+      ],
+      "status": "pending",
+      "subtotal": 15.24,
+      "tax": 0.3,
+      "timestamp": 1745912860571,
+      "total": 25.54,
+      "userId": "B04p2oxpA1PcJs5LskIcNZCPv9z2"
+    },
+    "-OP1IN40XA4q2fjzCj6J": {
+      "deliveryFee": 10,
+      "items": [
+        {
+          "bestFood": true,
+          "categoryId": 2,
+          "description": "Tadano's signature juicy burger",
+          "id": 1,
+          "imagePath": "tadano_burger",
+          "locationId": 1,
+          "numberInCart": 1,
+          "price": 6.99,
+          "priceId": 2,
+          "star": 4.7,
+          "timeId": 1,
+          "timeValue": 10,
+          "title": "Tadano Burger"
+        }
+      ],
+      "status": "pending",
+      "subtotal": 6.99,
+      "tax": 0.14,
+      "timestamp": 1745942839278,
+      "total": 17.13,
+      "userId": "B04p2oxpA1PcJs5LskIcNZCPv9z2"
+    },
+    "-OP3_9ig0NgKTRqVe3yd": {
+      "deliveryFee": 10,
+      "items": [
+        {
+          "bestFood": true,
+          "categoryId": 2,
+          "description": "Tadano's signature juicy burger",
+          "id": 1,
+          "imagePath": "tadano_burger",
+          "locationId": 1,
+          "numberInCart": 1,
+          "price": 6.99,
+          "priceId": 2,
+          "star": 4.7,
+          "timeId": 1,
+          "timeValue": 10,
+          "title": "Tadano Burger"
+        },
+        {
+          "bestFood": false,
+          "categoryId": 2,
+          "description": "Big and bold Ooki-style beef burger",
+          "id": 2,
+          "imagePath": "ooki_burger",
+          "locationId": 2,
+          "numberInCart": 1,
+          "price": 7.49,
+          "priceId": 2,
+          "star": 4.5,
+          "timeId": 2,
+          "timeValue": 12,
+          "title": "Ooki Burger"
+        }
+      ],
+      "status": "pending",
+      "subtotal": 14.48,
+      "tax": 0.29,
+      "timestamp": 1745981058137,
+      "total": 24.77,
+      "userId": "B04p2oxpA1PcJs5LskIcNZCPv9z2"
+    },
+    "-OPDpiugWVjBXRTNpF4O": {
+      "deliveryFee": 10,
+      "items": [
+        {
+          "bestFood": true,
+          "categoryId": 2,
+          "description": "Tadano's signature juicy burger",
+          "id": 1,
+          "imagePath": "tadano_burger",
+          "locationId": 1,
+          "numberInCart": 1,
+          "price": 6.99,
+          "priceId": 2,
+          "star": 4.7,
+          "timeId": 1,
+          "timeValue": 10,
+          "title": "Tadano Burger"
+        },
+        {
+          "bestFood": false,
+          "categoryId": 2,
+          "description": "Proxy's spicy double-patty burger",
+          "id": 3,
+          "imagePath": "proxy_burger",
+          "locationId": 3,
+          "numberInCart": 1,
+          "price": 8.25,
+          "priceId": 3,
+          "star": 4.8,
+          "timeId": 3,
+          "timeValue": 15,
+          "title": "Proxy Burger"
+        }
+      ],
+      "status": "pending",
+      "subtotal": 15.24,
+      "tax": 0.3,
+      "timestamp": 1746153172580,
+      "total": 25.54,
+      "userId": "B04p2oxpA1PcJs5LskIcNZCPv9z2"
+    },
+    "-OPMpVsBhNM8r3vSLGXk": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPMiBBw5BO0y4zyvEIv": {
+          "foodId": 1,
+          "price": 6.99,
+          "quantity": 2,
+          "title": "Tadano Burger"
+        },
+        "-OPMotDzyj58mWFDxBE8": {
+          "foodId": 6,
+          "price": 5.5,
+          "quantity": 1,
+          "title": "Frappe Gochizo"
+        },
+        "-OPMpU8HVIpYho0XmNj3": {
+          "foodId": 1,
+          "price": 6.99,
+          "quantity": 1,
+          "title": "Tadano Burger"
+        }
+      },
+      "status": "pending",
+      "subtotal": 26.47,
+      "tax": 0.53,
+      "timestamp": 1746304106353,
+      "total": 37,
+      "userId": "DS5nhDGtRTbXAXW7kvBzCImhWam1"
+    },
+    "-OPMpal29YU-CHCkzgja": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPMpZrWLzBPO0B67_0a": {
+          "foodId": 6,
+          "price": 5.5,
+          "quantity": 1,
+          "title": "Frappe Gochizo"
+        }
+      },
+      "status": "pending",
+      "subtotal": 5.5,
+      "tax": 0.11,
+      "timestamp": 1746304130466,
+      "total": 15.61,
+      "userId": "DS5nhDGtRTbXAXW7kvBzCImhWam1"
+    },
+    "-OPMq-5j8MwnbkBjAw1b": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPMpyxXlrXiD9yxVVf0": {
+          "foodId": 10,
+          "price": 10.5,
+          "quantity": 1,
+          "title": "Its not a Pizza"
+        }
+      },
+      "status": "pending",
+      "subtotal": 10.5,
+      "tax": 0.21,
+      "timestamp": 1746304234264,
+      "total": 20.71,
+      "userId": "DS5nhDGtRTbXAXW7kvBzCImhWam1"
+    },
+    "-OPMq4r3rwRYZFS3gnd3": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPMq3DzyQw8us9At68A": {
+          "foodId": 5,
+          "price": 4,
+          "quantity": 1,
+          "title": "Orenjiarm Juice"
+        }
+      },
+      "status": "pending",
+      "subtotal": 4,
+      "tax": 0.08,
+      "timestamp": 1746304257853,
+      "total": 14.08,
+      "userId": "DS5nhDGtRTbXAXW7kvBzCImhWam1"
+    },
+    "-OPSgPw7XATVZoTdLzWs": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPSgNdRiBo5Y0td3D9j": {
+          "foodId": 4,
+          "price": 3.5,
+          "quantity": 4,
+          "title": "Melecola"
+        }
+      },
+      "status": "pending",
+      "subtotal": 14,
+      "tax": 0.28,
+      "timestamp": 1746402389275,
+      "total": 24.28,
+      "userId": "WxBBRhhbVWar4YFFAiPflZ1iOnn1"
+    },
+    "-OPUBgix1JwQzf5pAFol": {
+      "deliveryFee": 10,
+      "items": [
+        {
+          "bestFood": true,
+          "categoryId": 1,
+          "description": "Frappe gochizo dengan rasa unik",
+          "id": 6,
+          "imagePath": "frappe_gochizo",
+          "locationId": 1,
+          "numberInCart": 1,
+          "price": 5.5,
+          "priceId": 2,
+          "star": 4.7,
+          "timeId": 1,
+          "timeValue": 7,
+          "title": "Frappe Gochizo"
+        },
+        {
+          "bestFood": true,
+          "categoryId": 4,
+          "description": "Pie yang mungkin berbentuk pizza",
+          "id": 10,
+          "imagePath": "wrong_pija_its_pie",
+          "locationId": 1,
+          "numberInCart": 1,
+          "price": 10.5,
+          "priceId": 3,
+          "star": 4.8,
+          "timeId": 2,
+          "timeValue": 15,
+          "title": "Its not a Pizza"
+        }
+      ],
+      "status": "pending",
+      "subtotal": 16,
+      "tax": 0.32,
+      "timestamp": 1746427626987,
+      "total": 26.32,
+      "userId": "bwzP6wfkYjdjCxuqDK4Olwzblox1"
+    },
+    "-OPUCHXg_8Uf80fDsB0A": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPShqjaPsb3Z_ECN56l": {
+          "foodId": 9,
+          "price": 9.99,
+          "quantity": 2,
+          "title": "Sulaisu Pizza"
+        }
+      },
+      "status": "pending",
+      "subtotal": 19.98,
+      "tax": 0.4,
+      "timestamp": 1746427783476,
+      "total": 30.38,
+      "userId": "6UlqWha3Qeb4BcDkc6ECbE3nHIL2"
+    },
+    "-OPUCc5Pb7_B_DCsU9hq": {
+      "deliveryFee": 10,
+      "items": [
+        {
+          "bestFood": true,
+          "categoryId": 2,
+          "description": "Tadano's signature juicy burger",
+          "id": 1,
+          "imagePath": "tadano_burger",
+          "locationId": 1,
+          "numberInCart": 4,
+          "price": 6.99,
+          "priceId": 2,
+          "star": 4.7,
+          "timeId": 1,
+          "timeValue": 10,
+          "title": "Tadano Burger"
+        }
+      ],
+      "status": "pending",
+      "subtotal": 27.96,
+      "tax": 0.56,
+      "timestamp": 1746427869963,
+      "total": 38.52,
+      "userId": "Bs8Gya8PycPwYxpFwW49SUhgbXk2"
+    },
+    "-OPUGxlpRx1-8wEcgyTK": {
+      "deliveryFee": 10,
+      "items": [
+        {
+          "bestFood": true,
+          "categoryId": 2,
+          "description": "Tadano's signature juicy burger",
+          "id": 1,
+          "imagePath": "tadano_burger",
+          "locationId": 1,
+          "numberInCart": 3,
+          "price": 6.99,
+          "priceId": 2,
+          "star": 4.7,
+          "timeId": 1,
+          "timeValue": 10,
+          "title": "Tadano Burger"
+        }
+      ],
+      "status": "pending",
+      "subtotal": 20.97,
+      "tax": 0.42,
+      "timestamp": 1746429007385,
+      "total": 31.39,
+      "userId": "Bs8Gya8PycPwYxpFwW49SUhgbXk2"
+    },
+    "-OPUGy2fwingJpN0nH9T": {
+      "deliveryFee": 10,
+      "items": [
+        {
+          "bestFood": true,
+          "categoryId": 2,
+          "description": "Tadano's signature juicy burger",
+          "id": 1,
+          "imagePath": "tadano_burger",
+          "locationId": 1,
+          "numberInCart": 3,
+          "price": 6.99,
+          "priceId": 2,
+          "star": 4.7,
+          "timeId": 1,
+          "timeValue": 10,
+          "title": "Tadano Burger"
+        }
+      ],
+      "status": "pending",
+      "subtotal": 20.97,
+      "tax": 0.42,
+      "timestamp": 1746429008527,
+      "total": 31.39,
+      "userId": "Bs8Gya8PycPwYxpFwW49SUhgbXk2"
+    },
+    "-OPUGyBSwdMBDPrfIoMm": {
+      "deliveryFee": 10,
+      "items": [
+        {
+          "bestFood": true,
+          "categoryId": 2,
+          "description": "Tadano's signature juicy burger",
+          "id": 1,
+          "imagePath": "tadano_burger",
+          "locationId": 1,
+          "numberInCart": 3,
+          "price": 6.99,
+          "priceId": 2,
+          "star": 4.7,
+          "timeId": 1,
+          "timeValue": 10,
+          "title": "Tadano Burger"
+        }
+      ],
+      "status": "pending",
+      "subtotal": 20.97,
+      "tax": 0.42,
+      "timestamp": 1746429009128,
+      "total": 31.39,
+      "userId": "Bs8Gya8PycPwYxpFwW49SUhgbXk2"
+    },
+    "-OPUGyEBaHHcF6Gv_vHF": {
+      "deliveryFee": 10,
+      "items": [
+        {
+          "bestFood": true,
+          "categoryId": 2,
+          "description": "Tadano's signature juicy burger",
+          "id": 1,
+          "imagePath": "tadano_burger",
+          "locationId": 1,
+          "numberInCart": 3,
+          "price": 6.99,
+          "priceId": 2,
+          "star": 4.7,
+          "timeId": 1,
+          "timeValue": 10,
+          "title": "Tadano Burger"
+        }
+      ],
+      "status": "pending",
+      "subtotal": 20.97,
+      "tax": 0.42,
+      "timestamp": 1746429009295,
+      "total": 31.39,
+      "userId": "Bs8Gya8PycPwYxpFwW49SUhgbXk2"
+    },
+    "-OPUGyGJj4w41iL1LOQR": {
+      "deliveryFee": 10,
+      "items": [
+        {
+          "bestFood": true,
+          "categoryId": 2,
+          "description": "Tadano's signature juicy burger",
+          "id": 1,
+          "imagePath": "tadano_burger",
+          "locationId": 1,
+          "numberInCart": 3,
+          "price": 6.99,
+          "priceId": 2,
+          "star": 4.7,
+          "timeId": 1,
+          "timeValue": 10,
+          "title": "Tadano Burger"
+        }
+      ],
+      "status": "pending",
+      "subtotal": 20.97,
+      "tax": 0.42,
+      "timestamp": 1746429009435,
+      "total": 31.39,
+      "userId": "Bs8Gya8PycPwYxpFwW49SUhgbXk2"
+    },
+    "-OPVQ5Y2z0yJ0Useuqj3": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPVPj371MH0w7WLosnR": {
+          "foodId": 1,
+          "price": 6.99,
+          "quantity": 1,
+          "title": "Tadano Burger"
+        },
+        "-OPVPt_Xr7jfS6v0_4vD": {
+          "foodId": 5,
+          "price": 4,
+          "quantity": 1,
+          "title": "Orenjiarm Juice"
+        }
+      },
+      "status": "pending",
+      "subtotal": 10.99,
+      "tax": 0.22,
+      "timestamp": 1746448181117,
+      "total": 21.21,
+      "userId": "a5Cyavp3D2Nerb6J0VwCQyygq593"
+    },
+    "-OPVeTStU8B6yHvSLCnL": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPVXDW_mGM20FE9xc7-": {
+          "foodId": 1,
+          "price": 6.99,
+          "quantity": 1,
+          "title": "Tadano Burger"
+        },
+        "-OPVXEOsdUTRvK4k4j2a": {
+          "foodId": 10,
+          "price": 10.5,
+          "quantity": 1,
+          "title": "Its not a Pizza"
+        },
+        "-OPVeMpkBD1oxBQ8UABn": {
+          "foodId": 1,
+          "price": 6.99,
+          "quantity": 1,
+          "title": "Tadano Burger"
+        },
+        "-OPVeQt6JH9BWvE_f1KH": {
+          "foodId": 11,
+          "price": 8.75,
+          "quantity": 1,
+          "title": "Original Pizza"
+        }
+      },
+      "status": "pending",
+      "subtotal": 33.23,
+      "tax": 0.66,
+      "timestamp": 1746452211188,
+      "total": 43.89,
+      "userId": "a5Cyavp3D2Nerb6J0VwCQyygq593"
+    },
+    "-OPVlJuMMPND7XPi-8Ww": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPVlISzB4ehKIgmo9HU": {
+          "foodId": 1,
+          "price": 6.99,
+          "quantity": 5,
+          "title": "Tadano Burger"
+        }
+      },
+      "status": "pending",
+      "subtotal": 34.95,
+      "tax": 0.7,
+      "timestamp": 1746454007572,
+      "total": 45.65,
+      "userId": "DS5nhDGtRTbXAXW7kvBzCImhWam1"
+    },
+    "-OPVl_gF-ehG57nTzPrK": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPVlWBavPrZFOx93R5s": {
+          "foodId": 3,
+          "price": 8.25,
+          "quantity": 1,
+          "title": "Proxy Burger"
+        },
+        "-OPVlWbcpxjZnUDI2yLq": {
+          "foodId": 1,
+          "price": 6.99,
+          "quantity": 1,
+          "title": "Tadano Burger"
+        },
+        "-OPVlX3FlLfWH-dwlmoN": {
+          "foodId": 2,
+          "price": 7.49,
+          "quantity": 1,
+          "title": "Ooki Burger"
+        },
+        "-OPVlYCJZD_7UZ1IIIqE": {
+          "foodId": 10,
+          "price": 10.5,
+          "quantity": 1,
+          "title": "Its not a Pizza"
+        }
+      },
+      "status": "pending",
+      "subtotal": 33.23,
+      "tax": 0.66,
+      "timestamp": 1746454076301,
+      "total": 43.89,
+      "userId": "DS5nhDGtRTbXAXW7kvBzCImhWam1"
+    },
+    "-OPXts3m3m5l3IRvSN58": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPXtqdzTUo_-ZwdaAtI": {
+          "foodId": 8,
+          "price": 5,
+          "quantity": 1,
+          "title": "Sticky Choco Yogurt"
+        }
+      },
+      "status": "pending",
+      "subtotal": 5,
+      "tax": 0.1,
+      "timestamp": 1746489802620,
+      "total": 15.1,
+      "userId": "DS5nhDGtRTbXAXW7kvBzCImhWam1"
+    },
+    "-OPYUzdW5m1ximW5ZDRI": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPYU2SLshspZI9iMxFJ": {
+          "foodId": 10,
+          "price": 10.5,
+          "quantity": 1,
+          "title": "Its not a Pizza"
+        },
+        "-OPYU3nhV1m8OOAFiEOy": {
+          "foodId": 6,
+          "price": 5.5,
+          "quantity": 1,
+          "title": "Frappe Gochizo"
+        },
+        "-OPYUvmccC_YUoF1I6DF": {
+          "foodId": 1,
+          "price": 6.99,
+          "quantity": 1,
+          "title": "Tadano Burger"
+        },
+        "-OPYUwmgguXeZhLDFhFR": {
+          "foodId": 10,
+          "price": 10.5,
+          "quantity": 1,
+          "title": "Its not a Pizza"
+        }
+      },
+      "status": "pending",
+      "subtotal": 33.49,
+      "tax": 0.67,
+      "timestamp": 1746499795038,
+      "total": 44.16,
+      "userId": "a5Cyavp3D2Nerb6J0VwCQyygq593"
+    },
+    "-OPYX9Lykn2-42AksdnH": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPYX1FvyDQ6vhO79T0O": {
+          "foodId": 8,
+          "price": 5,
+          "quantity": 1,
+          "title": "Sticky Choco Yogurt"
+        }
+      },
+      "status": "pending",
+      "subtotal": 5,
+      "tax": 0.1,
+      "timestamp": 1746500363208,
+      "total": 15.1,
+      "userId": "WpScImKDquQePvEmRoe8Hapwmis2"
+    },
+    "-OPZ5MEuY5LDJC_hoQLB": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPZ5Iu30oj7W09jlBO9": {
+          "foodId": 1,
+          "price": 6.99,
+          "quantity": 1,
+          "title": "Tadano Burger"
+        },
+        "-OPZ5JpS6lIk8neVwENv": {
+          "foodId": 10,
+          "price": 10.5,
+          "quantity": 2,
+          "title": "Its not a Pizza"
+        }
+      },
+      "status": "pending",
+      "subtotal": 27.99,
+      "tax": 0.56,
+      "timestamp": 1746509853820,
+      "total": 38.55,
+      "userId": "a5Cyavp3D2Nerb6J0VwCQyygq593"
+    },
+    "-OP_0vPwQr6kpgXZKZ3O": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPZ6YS1B4jgpgW9TCBT": {
+          "foodId": 3,
+          "price": 8.25,
+          "quantity": 1,
+          "title": "Proxy Burger"
+        },
+        "-OP_0nNp0Q3FlR4Ebuay": {
+          "foodId": 5,
+          "price": 4,
+          "quantity": 2,
+          "title": "Orenjiarm Juice"
+        }
+      },
+      "status": "pending",
+      "subtotal": 16.25,
+      "tax": 0.33,
+      "timestamp": 1746525467839,
+      "total": 26.58,
+      "userId": "DS5nhDGtRTbXAXW7kvBzCImhWam1"
+    },
+    "-OP_R7YKeyPjmnXYZ5xc": {
+      "deliveryFee": 10,
+      "items": {
+        "-OP_R1sHHmRdySZeUZ2N": {
+          "foodId": 1,
+          "price": 6.99,
+          "quantity": 4,
+          "title": "Tadano Burger"
+        },
+        "-OP_R3kQ3VDy4IZYng59": {
+          "foodId": 10,
+          "price": 10.5,
+          "quantity": 4,
+          "title": "Its not a Pizza"
+        }
+      },
+      "status": "pending",
+      "subtotal": 69.96,
+      "tax": 1.4,
+      "timestamp": 1746532337748,
+      "total": 81.36,
+      "userId": "Bs8Gya8PycPwYxpFwW49SUhgbXk2"
+    },
+    "-OPpF9Q48eA9n0yYrpwr": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPpBOl0HSSXbU_Qfd9-": {
+          "foodId": 1,
+          "price": 6.99,
+          "quantity": 1,
+          "title": "Tadano Burger"
+        }
+      },
+      "status": "pending",
+      "subtotal": 6.99,
+      "tax": 0.14,
+      "timestamp": 1746797633977,
+      "total": 17.13,
+      "userId": "Bs8Gya8PycPwYxpFwW49SUhgbXk2"
+    },
+    "-OPrk8DAPwBD8aIXDShV": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPrieriYa1pmntN3s3g": {
+          "foodId": 3,
+          "price": 8.25,
+          "quantity": 1,
+          "title": "Proxy Burger"
+        },
+        "-OPrih8aWWYWCgtYUYaf": {
+          "foodId": 8,
+          "price": 5,
+          "quantity": 1,
+          "title": "Sticky Choco Yogurt"
+        },
+        "-OPrihGeMH0ARWfuv5CS": {
+          "foodId": 8,
+          "price": 5,
+          "quantity": 1,
+          "title": "Sticky Choco Yogurt"
+        },
+        "-OPrjNaVopoDyXxGtGgY": {
+          "foodId": 6,
+          "price": 5.5,
+          "quantity": 1,
+          "title": "Frappe Gochizo"
+        }
+      },
+      "status": "pending",
+      "subtotal": 23.75,
+      "tax": 0.48,
+      "timestamp": 1746839572629,
+      "total": 34.23,
+      "userId": "6UlqWha3Qeb4BcDkc6ECbE3nHIL2"
+    },
+    "-OPrxlcVrd0B8Cu4QnAu": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPrxkiMnR8wJHiwrHTq": {
+          "foodId": 8,
+          "price": 5,
+          "quantity": 1,
+          "title": "Sticky Choco Yogurt"
+        }
+      },
+      "status": "pending",
+      "subtotal": 5,
+      "tax": 0.1,
+      "timestamp": 1746843146025,
+      "total": 15.1,
+      "userId": "6UlqWha3Qeb4BcDkc6ECbE3nHIL2"
+    },
+    "-OPsNu61cHeg7_hWHQGO": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPsMPMnNUELSBalCTZf": {
+          "foodId": 3,
+          "price": 8.25,
+          "quantity": 6,
+          "title": "Proxy Burger"
+        },
+        "-OPsMkaWcnoRJNhAe9aH": {
+          "foodId": 8,
+          "price": 5,
+          "quantity": 5,
+          "title": "Sticky Choco Yogurt"
+        }
+      },
+      "status": "pending",
+      "subtotal": 74.5,
+      "tax": 1.49,
+      "timestamp": 1746850258642,
+      "total": 85.99,
+      "userId": "6UlqWha3Qeb4BcDkc6ECbE3nHIL2"
+    },
+    "-OPsy4uncATIeSgSwQ-9": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPsinSQmhLQerIASory": {
+          "foodId": 1,
+          "price": 6.99,
+          "quantity": 1,
+          "title": "Tadano Burger"
+        },
+        "-OPsj5IP7xJdgiGDfuJT": {
+          "foodId": 2,
+          "price": 7.49,
+          "quantity": 1,
+          "title": "Ooki Burger"
+        },
+        "-OPsjXjd0ueg8jyAtvUf": {
+          "foodId": 10,
+          "price": 10.5,
+          "quantity": 1,
+          "title": "Its not a Pizza"
+        },
+        "-OPspHjMTgKgFZykOrvn": {
+          "foodId": 1,
+          "price": 6.99,
+          "quantity": 1,
+          "title": "Tadano Burger"
+        },
+        "-OPsrimrnRoYS6VCXrr3": {
+          "foodId": 7,
+          "price": 4.5,
+          "quantity": 1,
+          "title": "Choco Cream Pie"
+        },
+        "-OPsrkMIBn9X0QDtEjh6": {
+          "foodId": 7,
+          "price": 4.5,
+          "quantity": 1,
+          "title": "Choco Cream Pie"
+        },
+        "-OPsxtjNxui8_T-_xzZH": {
+          "foodId": 8,
+          "price": 5,
+          "quantity": 1,
+          "title": "Sticky Choco Yogurt"
+        }
+      },
+      "status": "pending",
+      "subtotal": 45.97,
+      "tax": 0.92,
+      "timestamp": 1746860006336,
+      "total": 56.89,
+      "userId": "pd5EefvXtfOFcQzouFH7tdng3zh2"
+    },
+    "-OPtkOVTyTU9UrOjUHE-": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPtfEDirXzcTLOARTx_": {
+          "foodId": 9,
+          "price": 9.99,
+          "quantity": 1,
+          "title": "Sulaisu Pizza"
+        },
+        "-OPtfITHpW-2Cv9M2Fr-": {
+          "foodId": 8,
+          "price": 5,
+          "quantity": 1,
+          "title": "Sticky Choco Yogurt"
+        },
+        "-OPtfOPa_of7DqXzlsl3": {
+          "foodId": 3,
+          "price": 8.25,
+          "quantity": 1,
+          "title": "Proxy Burger"
+        }
+      },
+      "status": "pending",
+      "subtotal": 23.24,
+      "tax": 0.46,
+      "timestamp": 1746873194683,
+      "total": 33.7,
+      "userId": "DS5nhDGtRTbXAXW7kvBzCImhWam1"
+    },
+    "-OPtkOxvFgTKS18PUzOG": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPtfEDirXzcTLOARTx_": {
+          "foodId": 9,
+          "price": 9.99,
+          "quantity": 1,
+          "title": "Sulaisu Pizza"
+        },
+        "-OPtfITHpW-2Cv9M2Fr-": {
+          "foodId": 8,
+          "price": 5,
+          "quantity": 1,
+          "title": "Sticky Choco Yogurt"
+        },
+        "-OPtfOPa_of7DqXzlsl3": {
+          "foodId": 3,
+          "price": 8.25,
+          "quantity": 1,
+          "title": "Proxy Burger"
+        }
+      },
+      "status": "pending",
+      "subtotal": 23.24,
+      "tax": 0.46,
+      "timestamp": 1746873196563,
+      "total": 33.7,
+      "userId": "DS5nhDGtRTbXAXW7kvBzCImhWam1"
+    },
+    "-OPtl9iR4LmWtOzv4xOn": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPtl8BoVFbUE7CevliI": {
+          "foodId": 6,
+          "price": 5.5,
+          "quantity": 4,
+          "title": "Frappe Gochizo"
+        }
+      },
+      "status": "pending",
+      "subtotal": 22,
+      "tax": 0.44,
+      "timestamp": 1746873396282,
+      "total": 32.44,
+      "userId": "DS5nhDGtRTbXAXW7kvBzCImhWam1"
+    },
+    "-OPu0dgQAiOCVZ0iFDL7": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPu0cbJf5Q_LoS9S4Dv": {
+          "foodId": 12,
+          "price": 4.25,
+          "quantity": 1,
+          "title": "Blukutuk Kazet"
+        }
+      },
+      "status": "pending",
+      "subtotal": 4.25,
+      "tax": 0.09,
+      "timestamp": 1746877718599,
+      "total": 14.34,
+      "userId": "QmWmM53LQ5cF8AsJQV7qHrj0fhh2"
+    },
+    "-OPyuh9ju_zCBlgMWG1i": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPtwqID3Gk72wTCUjf4": {
+          "foodId": 1,
+          "price": 6.99,
+          "quantity": 1,
+          "title": "Tadano Burger"
+        },
+        "-OPtwtvgCwyHcjVfBFsf": {
+          "foodId": 5,
+          "price": 4,
+          "quantity": 1,
+          "title": "Orenjiarm Juice"
+        },
+        "-OPyue9REZOi5vCCU5rx": {
+          "foodId": 4,
+          "price": 3.5,
+          "quantity": 1,
+          "title": "Melecola"
+        },
+        "-OPyuewH94VofXhYFPBZ": {
+          "foodId": 4,
+          "price": 3.5,
+          "quantity": 2,
+          "title": "Melecola"
+        }
+      },
+      "status": "pending",
+      "subtotal": 21.49,
+      "tax": 0.43,
+      "timestamp": 1746959782352,
+      "total": 31.92,
+      "userId": "a5Cyavp3D2Nerb6J0VwCQyygq593"
+    },
+    "-OPyupz_nQ_4FQ-HWSqI": {
+      "deliveryFee": 10,
+      "items": {
+        "-OPyulXlsHNV0MZ_yLgV": {
+          "foodId": 8,
+          "price": 5,
+          "quantity": 1,
+          "title": "Sticky Choco Yogurt"
+        }
+      },
+      "status": "pending",
+      "subtotal": 5,
+      "tax": 0.1,
+      "timestamp": 1746959818502,
+      "total": 15.1,
+      "userId": "a5Cyavp3D2Nerb6J0VwCQyygq593"
+    },
+    "order_1": {
+      "deliveryAddress": "Jl. Contoh No. 123, Jakarta",
+      "deliveryFee": 10,
+      "items": {
+        "food_1": {
+          "price": 6.99,
+          "quantity": 2,
+          "title": "Tadano Burger"
+        }
+      },
+      "status": "pending",
+      "subtotal": 13.98,
+      "tax": 0.28,
+      "timestamp": 1678901234567,
+      "total": 24.26,
+      "userId": "user123"
+    }
+  },
+  "Price": {
+    "price_1": {
+      "Id": 1,
+      "Value": "$1 - $5"
+    },
+    "price_2": {
+      "Id": 2,
+      "Value": "$5 - $10"
+    },
+    "price_3": {
+      "Id": 3,
+      "Value": "$10 - $20"
+    }
+  },
+  "Time": {
+    "time_1": {
+      "Id": 1,
+      "Value": "5 - 10 min"
+    },
+    "time_2": {
+      "Id": 2,
+      "Value": "10 - 15 min"
+    },
+    "time_3": {
+      "Id": 3,
+      "Value": "15 - 20 min"
+    }
+  },
+  "Users": {
+    "user123": {
+      "addresses": {
+        "address1": "Jl. Contoh No. 123, Jakarta"
+      },
+      "email": "john@example.com",
+      "name": "John Doe",
+      "phone": "081234567890"
+    }
+  }
+}
